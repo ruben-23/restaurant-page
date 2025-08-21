@@ -25,6 +25,10 @@ h1 {
     font-size: 50px;
 }
 
+h1:hover, h2:hover{
+    color: goldenrod;
+}
+
 nav {
     display: grid;
     grid-auto-flow: column;
@@ -35,19 +39,71 @@ nav {
 button {
     background-color: #C8B6A6;
     color: #3E2A2A;
-    border: 1px solid #C8B6A6;
+    border: none;
+    outline: 1px solid #C8B6A6;
     border-radius: 10px;
     padding: 10px 40px;
     font-size: 20px;
 }
 
 button:hover {
-    background-color: #D6C2B0;
+    background-color: #e9c564;
     color: #5B3A33;
-    border: 1px solid #BFA49A;
+    border:none;
+    outline: 1px solid #BFA49A;
     cursor: pointer;
 }
 
 #content {
     background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    padding: 30px
+}
+
+#content>div {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    overflow: auto;
+}
+
+.info {
+    display: grid;
+    align-content: end;
+    gap: 20px;
+    box-shadow:0 8px 8px -8px #ddd7c0;
+}
+
+.info h2 {
+    font-size: 40px;
+}
+
+.info p {
+    font-size: 18px;
+}
+
+.button-container, .info {
+    padding: 30px 10px 10px 60px;
+}
+
+.button-container button{
+    background-color: #e9c564;
+}
+
+.button-container button:hover{
+    background-color: #BFA49A;
+    color: gold;
+    border: none;
+    outline: 1px solid gold;
+}
+
+#content>div>img {
+    grid-row: 1/3;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
 }
