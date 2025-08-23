@@ -52,10 +52,11 @@ button:hover {
     border:none;
     outline: 1px solid #BFA49A;
     cursor: pointer;
+    scale: 1.03;
 }
 
 #content {
-    background-color: antiquewhite;
+    background-color: #F3E9DC;
     display: flex;
     justify-content: center;
     overflow: auto;
