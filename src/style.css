@@ -10,6 +10,7 @@ body {
     display: grid;
     grid-template-rows: 1fr 5fr;
     color: #5E503F;
+    background-color: #F3E9DC;
 }
 
 header {
@@ -61,4 +62,32 @@ button:hover {
     justify-content: center;
     overflow: auto;
     padding: 30px;
+}
+
+
+footer{
+    padding: 10px;
+    opacity: 0.35;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:#5F8B4C
+}
+
+a:hover {
+    color: #D98324;
+}
+
+a:visited {
+    color: #A5B68D
+}
+
+a:visited:hover {
+    color: #D98324;
+}
+
+footer:hover {
+    opacity: 1;
 }
