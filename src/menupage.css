@@ -27,6 +27,7 @@
 .menu-info > p:last-child {
     color: #d4983c;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .image-container {
