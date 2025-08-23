@@ -7,6 +7,7 @@ import addressImage from './images/address-svgrepo-com.svg';
 function loadAboutPage() {
 
     const content = document.getElementById('content');
+    content.innerHTML = '';
     const contactContainer = document.createElement('div');
     contactContainer.classList.add('contact-container');
 

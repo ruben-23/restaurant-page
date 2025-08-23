@@ -99,6 +99,7 @@ function createCard(item) {
 function loadMenuPage() {
 
     const content = document.getElementById('content');
+    content.innerHTML = '';
     const cardContainer = document.createElement('div');
     cardContainer.classList.add('card-container');
 
