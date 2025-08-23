@@ -1,10 +1,14 @@
 
+import './homepage.css';
+
+
 import restaurantImage from "./images/emi-ymerai-aJ-P0WPKhCc-unsplash.jpg";
 
 function loadHomePage() {
 
     const content = document.getElementById('content');
     const div = document.createElement('div');
+    div.classList.add('content-div');
 
     const img = document.createElement('img');
     img.src = restaurantImage;
