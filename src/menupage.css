@@ -1,0 +1,51 @@
+.card-container {
+    width: 70vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 500px));
+    grid-template-rows: repeat(auto-fill, 300px);
+    gap: 15px;
+    grid-auto-rows: 300px;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 15px;;
+    background-color: #EAD8C0;
+    
+    padding: 20px;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 15px;
+}
+
+.card:hover {
+    scale: 1.03;
+    cursor: pointer;
+    box-shadow: 0px 0px  20px 1px goldenrod;
+}
+
+.menu-info > p:last-child {
+    color: #d4983c;
+    font-size: 20px;
+}
+
+.image-container {
+    border-radius: 20px;
+    padding: 5px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.image-container img {
+    height: 200px;
+    width:200px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.menu-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
